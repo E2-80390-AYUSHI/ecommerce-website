@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL AKART Products|ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="icon" href="/images/favicon (2).ico">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat:wght@400;900&family=Poppins:wght@300;400;500;600&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/images/logo.png"  alt="" width="58px"></a>
+            </div>
+            <nav>
+                <ul id="Menuitem">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="/cart.html"><img src="/images/cart.png" width="30px" height="30px" alt=""></a>
+            <img src="/images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    
+        <div class="contact_Form">
+            <p class="contact_paragraph">Please use this contact form to get in touch with the AKart Stories team with regard to the content published on stories.Akart.com only. Please note that complaints about products sold on Akart or customer support emails will not receive a response. For such issues, please tweet to @Akartsupport</p>
+            <br>
+            <form action="">
+                <h1>Contact-Us</h1>
+                <p>Please use this form to leave a message for the Akart Stories Editorial Team. We respond only to story ideas or feedback about content published on Akart Stories. </p>
+                <br>
+                <p>For issues related to your Akart order or delivery, please contact the Akart Help Centre or Akart Customer Care at 1800-2989-9890</p>
+                <br>
+                <form >
+                    <h3>Email:</h3><input type="email" name="" placeholder="Email" id="">
+                    <br>
+                    <h3>Name:</h3><input type="text" name="" placeholder="Name" id="">
+                    <h3>Comment:</h3><input type="text" name="" placeholder="Your Answer" id="">
+                    <button class="btn">Submit</button>
+                </form>
+            </form>
+        </div>
+<!-- ------------------------footer----------------------- -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="/images/play-store.png" alt="">
+                    <img src="/images/app-store.png" alt="">
+                </div>
+                 </div>
+            <div class="footer-col-2">
+                <img src="/images/logo.png" height="90px" alt="">
+                <p>Our Purpose Is to Sustainably Make the Pleasure and benifits ofStyle Services to Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+            <p class="copyright">Copyright 2022</p>
+    </div>
+</div>
+<!-- --------------js for toggle menu--------------- -->
+<script>
+var Menuitem=document.getElementById("Menuitem");
+Menuitem.style.maxHeight="0px";
+function menutoggle(){
+    if(Menuitem.style.maxHeight=="0px")
+    {
+        MenuItems.style.maxHeight="200px";
+    }
+    else{
+        Menuitem.style.maxHeight="0px";
+    }
+}
+
+</script> 
+
+
+</body>
+</html>
